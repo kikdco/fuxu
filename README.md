@@ -2,6 +2,8 @@
 
 一个面向个人护肤流程的交互式产品原型，把产品成分、早晚流程、化妆台分析和 7 天个人观察连接成一条可回看的决策链路。
 
+[在线 Demo](https://kikdco.github.io/fuxu/) · [GitHub Repository](https://github.com/kikdco/fuxu)
+
 > 当前版本是前端交互原型，数据保存在浏览器 `localStorage`。它不是医疗器械，也不提供疾病诊断或产品功效保证。
 
 ## 项目亮点
@@ -86,9 +88,9 @@ npm test
 
 ## 部署
 
-仓库已包含 GitHub Pages 工作流。推送到 `main` 后，在 GitHub 仓库的 `Settings > Pages` 中选择 GitHub Actions 即可。
+仓库已配置 GitHub Pages 工作流，推送 `main` 后自动部署到：
 
-部署完成后，将在线地址补充到本 README 顶部。
+<https://kikdco.github.io/fuxu/>
 
 ## 数据与安全边界
 
